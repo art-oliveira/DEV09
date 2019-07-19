@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>DEV 09</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" rel="stylesheet" href="css/style.css"
+		<!-- Arthur Oliveira 07/19/19 version 1.0 -->
+<h1>
+  Elderflower</h1>
+<div id="content">
+  <div id="greeting" class="message">Hello!</div>
+  <table>
+    <tr>
+      <td>Custom sign: </td>
+      <td id="userSign"></td>
+    </tr>
+    <tr>
+      <tr>
+        <td>Upgrade Font?</td>
+        <td><input id="userFontInput" type="checkbox">(+$1) </input></td>
+      </tr>
+<tr>
+        <td>Colored Font?</td>
+        <td><input id="userColorInput" type="checkbox">(+$1) </input></td>
+      </tr>
+      <td>Total tiles: </td>
+      <td id="tiles"></td>
+      <input id="userSignInput" type="text"></input>
+    </tr>
+    <tr>
+      <td>Subtotal: </td>
+      <td id="subTotal">$</td>
+    </tr>
+    <tr>
+      <td>Shipping: </td>
+      <td id="shipping">$</td>
+    </tr>
+    <tr>
+      <td>Grand total: </td>
+      <td id="grandTotal">$</td>
+    </tr>
+  </table>
+  <a href="#" id="confirmOrder" class="action">Preview & Confirm</a>
+</div>
+
+<div id="preview" style="display:none;">
+  <a href="#" id="cancelPreview">Cancel</a>
+  <a href="#" id="confirmPreview">Confirm</a>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script  src="scripts/script.js"></script>
+</div>
